@@ -16,12 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import (apiGenerateView)
+from .views import (apiGenerateView, apiSpecificPoint)
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('generateImg', apiGenerateView.as_view()),
+    path('getPointsByCoord', apiSpecificPoint.as_view())
 ]
 
 
