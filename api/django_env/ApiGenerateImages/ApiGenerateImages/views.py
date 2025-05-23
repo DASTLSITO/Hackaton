@@ -17,7 +17,7 @@ from .puntoSeleccionado import obtenerMapaPuntosEspecificos
 from django.http import JsonResponse
 import base64
 from datetime import date
-import keras 
+#import keras 
 #from keras.models import load_model
 
 
